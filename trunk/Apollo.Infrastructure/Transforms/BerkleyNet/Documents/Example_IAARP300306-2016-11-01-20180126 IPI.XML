@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BRACAuditOrder xmlns="http://audit.batch.policy.powersuite.brac.com/"
+                xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                xmlns:xs="http://audit.batch.policy.powersuite.brac.com/">
+   <PolicyNumber>IAARP300306</PolicyNumber>
+   <DocumentDate>2017-12-08</DocumentDate>
+   <AuditType>Field</AuditType>
+   <GovState>IA</GovState>
+   <PolicyEffDate>2016-11-01</PolicyEffDate>
+   <PolicyExpDate>2017-11-01</PolicyExpDate>
+   <AONTracking>142799516302303117</AONTracking>
+   <UserName>Iowa PolicyServices</UserName>
+   <OwnerType>Corporation</OwnerType>
+   <PlcyStatus>Expired</PlcyStatus>
+   <EndrstDt>2017-12-08</EndrstDt>
+   <PremiumPaidToDate>-86501.00</PremiumPaidToDate>
+   <NetDepositPremium>86936.00</NetDepositPremium>
+   <TaxId>42-1419439</TaxId>
+   <AuditStatus>Assigned</AuditStatus>
+   <AuditDueDt>2018-01-27</AuditDueDt>
+   <AuditVendor>IPI</AuditVendor>
+   <AuditTiming>Standard</AuditTiming>
+   <Insured>
+      <InsuredName>TRI STATE TOWER, INC.</InsuredName>
+      <Phone>3193735040</Phone>
+      <MailingAddress>
+         <AddressLine1>2975 HIGHWAY 13</AddressLine1>
+         <City>MARION</City>
+         <State>IA</State>
+         <Zip>52302</Zip>
+      </MailingAddress>
+   </Insured>
+   <Agency>
+      <Name>First Iowa Insurance Agency Inc</Name>
+      <Phone>3193935262</Phone>
+      <MailingAddress>
+         <AddressLine1>PO Box 997</AddressLine1>
+         <City>Cedar Rapids</City>
+         <State>IA</State>
+         <Zip>52406-0997</Zip>
+      </MailingAddress>
+   </Agency>
+   <PolicyPremiumDetails>
+      <ARDDates>
+         <ARDDate>2016-11-16</ARDDate>
+         <ARDDate>2016-11-18</ARDDate>
+      </ARDDates>
+      <StateExposureDetails>
+         <STATECODE>IL</STATECODE>
+         <PremiumPeriodDetails>
+            <Locations>
+               <LocationNo>3</LocationNo>
+               <LocationName>TRI STATE TOWER, INC.</LocationName>
+               <RiskLocation>1501 West Bradley Ave,Peoria,IL 61625</RiskLocation>
+               <ExposureDetails>
+                  <ExposureDetailNo>0</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>13.58</Rate>
+                  <Amount>4630.00</Amount>
+                  <ExposureEffDt>2016-11-01</ExposureEffDt>
+                  <ExposureExpDt>2017-04-19</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>1</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>13.58</Rate>
+                  <Amount>192.00</Amount>
+                  <ExposureEffDt>2017-04-19</ExposureEffDt>
+                  <ExposureExpDt>2017-04-26</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>2</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>13.58</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-04-19</ExposureEffDt>
+                  <ExposureExpDt>2017-04-26</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>3</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>13.58</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-04-26</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>4</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>13.58</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-04-26</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>5</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>13.58</Rate>
+                  <Amount>5178.00</Amount>
+                  <ExposureEffDt>2017-04-26</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>6</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>13.58</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-04-26</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+            </Locations>
+         </PremiumPeriodDetails>
+      </StateExposureDetails>
+      <StateExposureDetails>
+         <STATECODE>IA</STATECODE>
+         <PremiumPeriodDetails>
+            <Locations>
+               <LocationNo>2</LocationNo>
+               <LocationName>TRI STATE TOWER, INC.</LocationName>
+               <RiskLocation>2957 HIGHWAY 13,MARION,IA 523029658</RiskLocation>
+               <ExposureDetails>
+                  <ExposureDetailNo>8</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>uslh</RatingType>
+                  <Rate>12.86</Rate>
+                  <Amount>438.00</Amount>
+                  <ExposureEffDt>2016-11-01</ExposureEffDt>
+                  <ExposureExpDt>2016-11-17</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>9</ExposureDetailNo>
+                  <ClassCode>8742</ClassCode>
+                  <Classification>SALESPRSNS-COLLCTRS-MESSNGRS-OUTSIDE</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.77</Rate>
+                  <Amount>9458.00</Amount>
+                  <ExposureEffDt>2016-11-01</ExposureEffDt>
+                  <ExposureExpDt>2016-11-17</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>10</ExposureDetailNo>
+                  <ClassCode>5221</ClassCode>
+                  <Classification>CONCRETE-CEMENT WORK-FLOORS DRVWYS &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>10.95</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2016-11-01</ExposureEffDt>
+                  <ExposureExpDt>2016-11-17</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>11</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>i</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>3288.00</Amount>
+                  <ExposureEffDt>2016-11-01</ExposureEffDt>
+                  <ExposureExpDt>2016-11-17</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>12</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>20652.00</Amount>
+                  <ExposureEffDt>2016-11-01</ExposureEffDt>
+                  <ExposureExpDt>2016-11-17</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>13</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>6.40</Rate>
+                  <Amount>55743.00</Amount>
+                  <ExposureEffDt>2016-11-01</ExposureEffDt>
+                  <ExposureExpDt>2016-11-17</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>14</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2016-11-01</ExposureEffDt>
+                  <ExposureExpDt>2016-11-17</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>15</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>6.40</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2016-11-01</ExposureEffDt>
+                  <ExposureExpDt>2016-11-17</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>16</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>i</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>3288.00</Amount>
+                  <ExposureEffDt>2016-11-01</ExposureEffDt>
+                  <ExposureExpDt>2016-11-17</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>17</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>uslh</RatingType>
+                  <Rate>12.86</Rate>
+                  <Amount>548.00</Amount>
+                  <ExposureEffDt>2016-11-17</ExposureEffDt>
+                  <ExposureExpDt>2016-12-07</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>18</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2016-11-17</ExposureEffDt>
+                  <ExposureExpDt>2016-12-07</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>19</ExposureDetailNo>
+                  <ClassCode>8742</ClassCode>
+                  <Classification>SALESPRSNS-COLLCTRS-MESSNGRS-OUTSIDE</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.77</Rate>
+                  <Amount>11823.00</Amount>
+                  <ExposureEffDt>2016-11-17</ExposureEffDt>
+                  <ExposureExpDt>2016-12-07</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>20</ExposureDetailNo>
+                  <ClassCode>5221</ClassCode>
+                  <Classification>CONCRETE-CEMENT WORK-FLOORS DRVWYS &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>10.95</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2016-11-17</ExposureEffDt>
+                  <ExposureExpDt>2016-12-07</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>21</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>i</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>4110.00</Amount>
+                  <ExposureEffDt>2016-11-17</ExposureEffDt>
+                  <ExposureExpDt>2016-12-07</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>22</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>25815.00</Amount>
+                  <ExposureEffDt>2016-11-17</ExposureEffDt>
+                  <ExposureExpDt>2016-12-07</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>23</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>6.40</Rate>
+                  <Amount>69679.00</Amount>
+                  <ExposureEffDt>2016-11-17</ExposureEffDt>
+                  <ExposureExpDt>2016-12-07</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>24</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2016-11-17</ExposureEffDt>
+                  <ExposureExpDt>2016-12-07</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>25</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>6.40</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2016-11-17</ExposureEffDt>
+                  <ExposureExpDt>2016-12-07</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>26</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>i</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>4110.00</Amount>
+                  <ExposureEffDt>2016-11-17</ExposureEffDt>
+                  <ExposureExpDt>2016-12-07</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>27</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>uslh</RatingType>
+                  <Rate>12.86</Rate>
+                  <Amount>795.00</Amount>
+                  <ExposureEffDt>2016-12-07</ExposureEffDt>
+                  <ExposureExpDt>2017-01-05</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>28</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2016-12-07</ExposureEffDt>
+                  <ExposureExpDt>2017-01-05</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>29</ExposureDetailNo>
+                  <ClassCode>8742</ClassCode>
+                  <Classification>SALESPRSNS-COLLCTRS-MESSNGRS-OUTSIDE</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.77</Rate>
+                  <Amount>17143.00</Amount>
+                  <ExposureEffDt>2016-12-07</ExposureEffDt>
+                  <ExposureExpDt>2017-01-05</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>30</ExposureDetailNo>
+                  <ClassCode>5221</ClassCode>
+                  <Classification>CONCRETE-CEMENT WORK-FLOORS DRVWYS &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>10.95</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2016-12-07</ExposureEffDt>
+                  <ExposureExpDt>2017-01-05</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>31</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>i</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>5959.00</Amount>
+                  <ExposureEffDt>2016-12-07</ExposureEffDt>
+                  <ExposureExpDt>2017-01-05</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>32</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>37432.00</Amount>
+                  <ExposureEffDt>2016-12-07</ExposureEffDt>
+                  <ExposureExpDt>2017-01-05</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>33</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>6.40</Rate>
+                  <Amount>101034.00</Amount>
+                  <ExposureEffDt>2016-12-07</ExposureEffDt>
+                  <ExposureExpDt>2017-01-05</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>34</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2016-12-07</ExposureEffDt>
+                  <ExposureExpDt>2017-01-05</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>35</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2016-12-07</ExposureEffDt>
+                  <ExposureExpDt>2017-01-05</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>36</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>6.40</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2016-12-07</ExposureEffDt>
+                  <ExposureExpDt>2017-01-05</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>37</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>i</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>5959.00</Amount>
+                  <ExposureEffDt>2016-12-07</ExposureEffDt>
+                  <ExposureExpDt>2017-01-05</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>38</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>uslh</RatingType>
+                  <Rate>12.86</Rate>
+                  <Amount>3452.00</Amount>
+                  <ExposureEffDt>2017-01-05</ExposureEffDt>
+                  <ExposureExpDt>2017-05-11</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>39</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-01-05</ExposureEffDt>
+                  <ExposureExpDt>2017-05-11</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>40</ExposureDetailNo>
+                  <ClassCode>8742</ClassCode>
+                  <Classification>SALESPRSNS-COLLCTRS-MESSNGRS-OUTSIDE</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.77</Rate>
+                  <Amount>74485.00</Amount>
+                  <ExposureEffDt>2017-01-05</ExposureEffDt>
+                  <ExposureExpDt>2017-05-11</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>41</ExposureDetailNo>
+                  <ClassCode>5221</ClassCode>
+                  <Classification>CONCRETE-CEMENT WORK-FLOORS DRVWYS &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>10.95</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-01-05</ExposureEffDt>
+                  <ExposureExpDt>2017-05-11</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>42</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>i</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>25890.00</Amount>
+                  <ExposureEffDt>2017-01-05</ExposureEffDt>
+                  <ExposureExpDt>2017-05-11</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>43</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>162633.00</Amount>
+                  <ExposureEffDt>2017-01-05</ExposureEffDt>
+                  <ExposureExpDt>2017-05-11</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>44</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>6.40</Rate>
+                  <Amount>438975.00</Amount>
+                  <ExposureEffDt>2017-01-05</ExposureEffDt>
+                  <ExposureExpDt>2017-05-11</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>45</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-01-05</ExposureEffDt>
+                  <ExposureExpDt>2017-05-11</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>46</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-01-05</ExposureEffDt>
+                  <ExposureExpDt>2017-05-11</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>47</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>6.40</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-01-05</ExposureEffDt>
+                  <ExposureExpDt>2017-05-11</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>48</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>i</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>25890.00</Amount>
+                  <ExposureEffDt>2017-01-05</ExposureEffDt>
+                  <ExposureExpDt>2017-05-11</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>49</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-01-05</ExposureEffDt>
+                  <ExposureExpDt>2017-05-11</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>50</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>uslh</RatingType>
+                  <Rate>12.86</Rate>
+                  <Amount>4767.00</Amount>
+                  <ExposureEffDt>2017-05-11</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>51</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-05-11</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>52</ExposureDetailNo>
+                  <ClassCode>8742</ClassCode>
+                  <Classification>SALESPRSNS-COLLCTRS-MESSNGRS-OUTSIDE</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.77</Rate>
+                  <Amount>102860.00</Amount>
+                  <ExposureEffDt>2017-05-11</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>53</ExposureDetailNo>
+                  <ClassCode>5221</ClassCode>
+                  <Classification>CONCRETE-CEMENT WORK-FLOORS DRVWYS &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>10.95</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-05-11</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>54</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>i</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>35753.00</Amount>
+                  <ExposureEffDt>2017-05-11</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>55</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>224589.00</Amount>
+                  <ExposureEffDt>2017-05-11</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>56</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>6.40</Rate>
+                  <Amount>606204.00</Amount>
+                  <ExposureEffDt>2017-05-11</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>57</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-05-11</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>58</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-05-11</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>59</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>6.40</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-05-11</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>60</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>6.40</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-05-11</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>61</ExposureDetailNo>
+                  <ClassCode>8810</ClassCode>
+                  <Classification>CLERICAL OFFICE EMPLOYEES - NOC</Classification>
+                  <ClassificationType>i</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>0.40</Rate>
+                  <Amount>35753.00</Amount>
+                  <ExposureEffDt>2017-05-11</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+               <ExposureDetails>
+                  <ExposureDetailNo>62</ExposureDetailNo>
+                  <ClassCode>5040</ClassCode>
+                  <Classification>IRON-STEEL ERECTION-FRAME STRUCTURES</Classification>
+                  <ClassificationType>ws</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>41.22</Rate>
+                  <Amount>0.00</Amount>
+                  <ExposureEffDt>2017-05-11</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+            </Locations>
+         </PremiumPeriodDetails>
+      </StateExposureDetails>
+      <StateExposureDetails>
+         <STATECODE>KS</STATECODE>
+         <PremiumPeriodDetails>
+            <Locations>
+               <LocationNo>4</LocationNo>
+               <LocationName>TRI STATE TOWER, INC.</LocationName>
+               <RiskLocation>17437 SW Dawnhill RD,Rose Hill,KS 67133</RiskLocation>
+               <ExposureDetails>
+                  <ExposureDetailNo>7</ExposureDetailNo>
+                  <ClassCode>7600</ClassCode>
+                  <Classification>TELEPHONE-TELEGRAPH CO ALL OTH EES &amp;D</Classification>
+                  <ClassificationType>e</ClassificationType>
+                  <RatingType>std</RatingType>
+                  <Rate>3.06</Rate>
+                  <Amount>10000.00</Amount>
+                  <ExposureEffDt>2017-09-01</ExposureEffDt>
+                  <ExposureExpDt>2017-11-01</ExposureExpDt>
+               </ExposureDetails>
+            </Locations>
+         </PremiumPeriodDetails>
+      </StateExposureDetails>
+   </PolicyPremiumDetails>
+   <Principals>
+      <Principal>
+         <Name>DIEK BRUNSHEEN</Name>
+         <State>IA</State>
+         <CoveredType>Included</CoveredType>
+         <Title>Board Member</Title>
+         <Effective>2016-11-01</Effective>
+         <Expiration>2017-11-01</Expiration>
+      </Principal>
+      <Principal>
+         <Name>RICK ELLISON</Name>
+         <State>IA</State>
+         <CoveredType>Included</CoveredType>
+         <Title>President</Title>
+         <Effective>2016-11-01</Effective>
+         <Expiration>2017-11-01</Expiration>
+      </Principal>
+   </Principals>
+   <Claims>
+      <Claim>
+         <ClaimStatus>Accepted</ClaimStatus>
+         <ClaimantName> Daniel A Bruce</ClaimantName>
+         <DOL>2017-01-25</DOL>
+         <InjuryDesc>Leg puncutre/injury</InjuryDesc>
+         <ClassCode>7600</ClassCode>
+      </Claim>
+   </Claims>
+   <Waivers>
+      <Waiver>
+         <WaiverHolder>CEDAR FALLS UTILITITES</WaiverHolder>
+         <Description>ANTENNA WORK</Description>
+         <WaiverClass>7600</WaiverClass>
+         <EstimatedPayroll>0.00</EstimatedPayroll>
+      </Waiver>
+      <Waiver>
+         <WaiverHolder>GLENMARTIN HOLDING CO., LLC</WaiverHolder>
+         <Description>.</Description>
+         <WaiverClass>7600</WaiverClass>
+         <EstimatedPayroll>0.00</EstimatedPayroll>
+      </Waiver>
+      <Waiver>
+         <WaiverHolder>MidAmerican Energy Company, its parent, divisions, affiliates, subsidiary companies, co-lessees or co-venturers, agents, directors, officers, employees &amp; servant</WaiverHolder>
+         <Description>Construction and services required on project.</Description>
+         <WaiverClass>5040</WaiverClass>
+         <EstimatedPayroll>0.00</EstimatedPayroll>
+      </Waiver>
+      <Waiver>
+         <WaiverHolder>MUTI-SII, Inc.</WaiverHolder>
+         <Description>Provide crews, materials, and equipment for the erection, installation, modification, repair, maintenance and/or decommissioning services of wireless telecommunications towers, water tanks, rooftops and structures and their associates cabinets, platforms, shelters, equipment and other related or supporting items and structures thereo.</Description>
+         <WaiverClass>5040</WaiverClass>
+         <EstimatedPayroll>0.00</EstimatedPayroll>
+      </Waiver>
+      <Waiver>
+         <WaiverHolder>NEXSTAR BROADCASTING INC</WaiverHolder>
+         <Description>CONSTRUCTION</Description>
+         <WaiverClass>7600</WaiverClass>
+         <EstimatedPayroll>0.00</EstimatedPayroll>
+      </Waiver>
+      <Waiver>
+         <WaiverHolder>T-Mobile USA, Inc., its subsidiaries &amp; affiliates</WaiverHolder>
+         <Description>Work in connection with the construction of a telecommunication system.</Description>
+         <WaiverClass>5040</WaiverClass>
+         <EstimatedPayroll>0.00</EstimatedPayroll>
+      </Waiver>
+      <Waiver>
+         <WaiverHolder>The Moody Bible Institute of Chicago</WaiverHolder>
+         <Description>CONSTRUCTION</Description>
+         <WaiverClass>7600</WaiverClass>
+         <EstimatedPayroll>0.00</EstimatedPayroll>
+      </Waiver>
+      <Waiver>
+         <WaiverHolder>YOUNG CORONET, A JOINT VENTURE</WaiverHolder>
+         <Description>CONSTRUCTION</Description>
+         <WaiverClass>7600</WaiverClass>
+         <EstimatedPayroll>0.00</EstimatedPayroll>
+      </Waiver>
+   </Waivers>
+   <SpecialInstructions/>
+</BRACAuditOrder>
