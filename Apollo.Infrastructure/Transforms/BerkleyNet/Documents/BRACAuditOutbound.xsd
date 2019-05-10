@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://audit.batch.policy.powersuite.brac.com/" targetNamespace="http://audit.batch.policy.powersuite.brac.com/" elementFormDefault="qualified">
+   <xs:complexType name="Address">
+      <xs:sequence>
+         <xs:element minOccurs="0" maxOccurs="1" name="AddressLine1" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="1" name="AddressLine2" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="1" name="CityStateZip" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="1" name="City" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="1" name="State" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="1" name="Zip" type="xs:string" />
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="Agency">
+      <xs:sequence>
+         <xs:element minOccurs="1" maxOccurs="1" name="Name" type="xs:string" />
+         <xs:element minOccurs="1" maxOccurs="1" name="Phone" type="xs:string" />
+         <xs:element minOccurs="1" maxOccurs="1" name="MailingAddress" type="tns:Address" />
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="Insured">
+      <xs:sequence>
+         <xs:element minOccurs="1" maxOccurs="1" name="InsuredName" type="xs:string" />
+         <xs:element minOccurs="1" maxOccurs="1" name="Phone" type="xs:string" />
+         <xs:element minOccurs="1" maxOccurs="1" name="MailingAddress" type="tns:Address" />
+         <xs:element minOccurs="0" maxOccurs="unbounded" name="DBANames">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="Location">
+      <xs:sequence>
+         <xs:element minOccurs="0" maxOccurs="1" name="LocationNo" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="1" name="LocationName" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="1" name="RiskLocation" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="unbounded" name="ExposureDetails">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element minOccurs="0" maxOccurs="1" name="ExposureDetailNo" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="ClassCode" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="Classification" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="ClassificationType" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="Exposure" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="RatingType" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="Rate" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="ExposureEffDt" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="ExposureExpDt" type="xs:string" />
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="Waivers">
+    <xs:sequence>
+    <xs:element minOccurs="0" maxOccurs="unbounded" name="Waiver">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element minOccurs="1" maxOccurs="1" name="WaiverHolder" type="xs:string" />
+         <xs:element minOccurs="1" maxOccurs="1" name="Description" type="xs:string" />
+         <xs:element minOccurs="1" maxOccurs="1" name="WaiverClass" type="xs:string" />
+         <xs:element minOccurs="1" maxOccurs="1" name="EstimatedPayroll" type="xs:string" />
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="PolicyPremiumDetails">
+      <xs:sequence>
+         <xs:element minOccurs="0" maxOccurs="1" name="ARDDates">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element minOccurs="0" maxOccurs="unbounded" name="ARDDate" type="xs:string" />
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+         <xs:element minOccurs="0" maxOccurs="unbounded" name="StateExposureDetails">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element minOccurs="0" maxOccurs="1" name="STATECODE" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="unbounded" name="PremiumPeriodDetails" type="tns:PremiumPeriod" />
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="PremiumPeriod">
+      <xs:sequence>
+         <xs:element minOccurs="0" maxOccurs="1" name="PeriodperiodBeginDate" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="1" name="PeriodperiodEndDate" type="xs:string" />
+         <xs:element minOccurs="1" maxOccurs="unbounded" name="Locations" type="tns:Location" />
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="PolicySummary">
+      <xs:sequence>
+         <xs:element minOccurs="1" maxOccurs="1" name="PolicySummaryEffectiveDate" type="xs:string" />
+         <xs:element minOccurs="1" maxOccurs="1" name="PolicySummaryEndDate" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="1" name="Credit" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="1" name="Comment" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="unbounded" name="PolicySummaryDetails">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element minOccurs="0" maxOccurs="1" name="PolicySummaryNo" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="PolicySummaryText" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="PolicySummaryAMT" type="xs:string" />
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="CertificateHolders">
+      <xs:sequence>
+         <xs:element minOccurs="0" maxOccurs="unbounded" name="CertificateHolder">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="AddressLin" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="CityStateZip" type="xs:string" />
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="Principals">
+      <xs:sequence>
+         <xs:element minOccurs="0" maxOccurs="unbounded" name="Principal">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="State" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="CoveredType" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="Title" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="Effective" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="Expiration" type="xs:string" />
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="Claims">
+      <xs:sequence>
+         <xs:element minOccurs="0" maxOccurs="unbounded" name="Claim">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element minOccurs="0" maxOccurs="1" name="ClaimStatus" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="ClaimAdmin" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="ClaimantName" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="DOL" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="InjuryDesc" type="xs:string" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="ClassCode" type="xs:string" />
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:element name="BRACAuditOrder">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="1" name="PolicyNumber" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="DocumentDate" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="PolicyMrkType" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="AuditType" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="AuditProcessType" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="GovState" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="PolicyEffDate" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="PolicyExpDate" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="AONTracking" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="CustomerNumber" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="UserName" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="OwnerType" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="PlcyStatus" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="EndrstDt" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="PremiumPaidToDate" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="NetDepositPremium" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="TaxId" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="AuditStatus" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="AuditDueDt" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="AuditVendor" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="PlcyARD" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="AuditTiming" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Insured" type="tns:Insured" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Agency" type="tns:Agency" />
+            <xs:element minOccurs="1" maxOccurs="1" name="PolicyPremiumDetails" type="tns:PolicyPremiumDetails" />
+            <xs:element minOccurs="1" maxOccurs="1" name="PolicySummary" type="tns:PolicySummary" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Principals" type="tns:Principals" />
+            <xs:element minOccurs="1" maxOccurs="1" name="CertificateHolders" type="tns:CertificateHolders" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Claims" type="tns:Claims" />
+            <xs:element minOccurs="1" maxOccurs="1"  name="Waivers" type="tns:Waivers" />
+            <xs:element minOccurs="1" maxOccurs="1" name="SpecialInstructions" type="xs:string" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

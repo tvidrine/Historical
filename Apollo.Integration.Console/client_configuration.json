@@ -1,0 +1,15 @@
+[
+  {
+    "ClientKey": "{B47D81EA-A1A7-48F0-BF3C-C06A7785AE71}",
+    "ClientName": "Berkleynet",
+    "UserName": "testUser",
+    "Password": "Foo",
+    "CommunicateUsing": "Ftp",
+    "ActionToPerform": "Both",
+    "DataFormat": "Xml",
+    "EmailNotificationRecipients": [
+      "tvidrine@zoomaudits.com",
+      "test@zoomaudits.com"
+    ] 
+  }
+]

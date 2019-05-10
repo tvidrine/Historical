@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Configurations>Debug;Release;Staging</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Repositories.v1\**" />
+    <EmbeddedResource Remove="Repositories.v1\**" />
+    <None Remove="Repositories.v1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="PasswordFinder.cs" />
+    <Compile Remove="Providers\FileShareProvider.cs" />
+    <Compile Remove="Providers\FileShareProviderBox.cs" />
+    <Compile Remove="Providers\FileShareProviderDropBox.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.5" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.9.0" />
+    <PackageReference Include="FluentFTP" Version="19.2.3" />
+    <PackageReference Include="MailKit" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="NLog" Version="4.5.11" />
+    <PackageReference Include="NLog.Config" Version="4.5.11" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+    <PackageReference Include="System.Security.Permissions" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Apollo.Core\Apollo.Core.csproj" />
+    <ProjectReference Include="..\Apollo.RulesEngine\Apollo.RulesEngine.csproj" />
+  </ItemGroup>
+
+</Project>
